@@ -19,7 +19,6 @@ module "rds" {
   db_name        = var.db_name
   allowed_cidrs  = var.allowed_cidrs
   multi_az       = true
-  backup_retention_days = 7
 }
 
 module "efs" {
