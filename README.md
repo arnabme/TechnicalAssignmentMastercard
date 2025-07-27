@@ -33,9 +33,13 @@ Requirements for runing this code
 
 USAGE:
 
-export ENV=dev # example
-make init 
+export ENV=dev # example for dev
+
+make init
+
 make plan
+
 make apply
+
 make destry
 
